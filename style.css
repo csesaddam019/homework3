@@ -1,0 +1,438 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+
+/*Custom css*/
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+header .container{
+    background-color: #F6F9F9;
+}
+.logo{
+    box-sizing: border-box;
+
+}
+
+.logo img{
+    padding-top: 30px;
+}
+
+.navigation_bar{
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.navigation_bar ul.navigation{
+
+}
+.navigation_bar ul.navigation li{
+
+}
+.navigation_bar ul.navigation li a{
+    text-transform: uppercase;
+}
+
+.navigation_bar ul.navigation li a:hover{
+background-color: #1BBC9B;
+    color: #ffffff;
+}
+
+.navigation_bar .navbar{
+    background-color: #F6F9F9;
+    border: none;
+}
+.slider_area{
+    padding: 20px 0;
+}
+.image_back{
+    max-width: 100%;
+
+    height: 500px;
+    background: url(img/slider.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider_image h1{
+    color: #ffffff;
+    font-weight:700;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 95px;
+}
+hr{
+    width:50%;
+    border: 1px solid #1BBC9B;
+}
+.slider_image p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
+.slider_image p.link{
+    margin-top: 30px;
+    cursor: pointer;
+    border:1px solid;
+    padding: 14px;
+}
+
+.slider_area .slider_image p.transition{
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.slider_area .slider_image p.transition:hover{
+    background-color: #48BAFF;
+    border:0;
+    transform: rotate(180deg);
+}
+
+.slider_image{
+    align-content: center;
+}
+.slider_image .middle_button button{
+    padding: 10px;
+}
+
+.design_area{
+padding: 20px 0;
+}
+.design_area .design{
+    background-color: #F6F9F9;
+}
+.content_area{
+
+}
+.content_area h1{
+text-align: center;
+    color: #2d3950;
+    font-size: 40px;
+
+}
+.content_area p{
+    color: #999999;
+    font-size: 15px;
+    text-align: center;
+}
+.info_area{
+padding: 20px 0;
+}
+
+.info_area .single_info{
+    text-align: center;
+
+}
+.info_area .single_info i{
+    padding: 25px 40px;
+    background-color: #48BAFF;
+    font-size: 63px;
+    color: #fff;
+
+}
+.info_area .single_info h1{
+    color: #2d3950;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 25px;
+
+}
+.info_area .single_info p{
+color: #999999;
+    font-size: 15px;
+}
+
+.portfolio_area{
+    padding: 100px 0;
+
+}
+.portfolio_area .portfolio_header button{
+    border-radius: 0;
+    background-color: #1BBC9B;
+    font-size: 18px;
+}
+
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+padding-right: 0;
+    margin-bottom: 15px;
+}
+
+
+.gallery_product img
+{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+}
+
+.portfolio_header{
+    padding-bottom: 20px;
+}
+.contact_area{
+    padding: 20px 0;
+}
+.contact_area .contact{
+    background-image: url("img/contact_area.png");
+    height: auto;
+    padding: 20px;
+}
+.contact_area .contact_form input{
+    opacity: 0.6;
+    background-color: #2C374C;
+    padding: 25px;
+    border-radius: 0;
+}
+.contact_area .contact_form input.check{
+ background-color: #ffffff;
+}
+
+
+.contact_area .contact_form label{
+    color: #ffffff;
+}
+
+.contact_area .contact_form textarea{
+    opacity: 0.6;
+    background-color: #2C374C;
+}
+
+.contact_area .contact_form h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 41px;
+    padding-top: 20px;
+}
+
+.contact_area .contact_form input[type="submit"]{
+    padding: 12px 30px 12px 30px;
+    color: #ffffff;
+}
+.contact_area .google_map{
+    padding-top: 45px;
+}
+.footer_area .footer_left p{
+font-weight: 700;
+    font-size: 15px;
+}
+.footer_area{
+    padding: 20px 0;
+}
+
+.porfolio_image{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container .porfolio_image .gallery_product:hover .image {
+    opacity: 0.6;
+}
+
+.container .porfolio_image .gallery_product:hover .middle {
+    opacity: 1;
+}
+
+.container .porfolio_image .gallery_product .text {
+    color: white;
+    font-size: 16px;
+
+
+
+
+
+
+
+}
+.text a{
+    background-color: #1BBC9B;
+    padding: 14px;
+    display: inline-flex;
+    color: #fff;
+    border-radius: 21px;
+}
+.text a{
+
+}
+
+
+
+
+
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+    background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+    background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+    background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+    background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+    color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+    color:#44BCDD;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    font-size:15px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:42px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social_icon ul li a {
+    background-color: #15A4FA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
